@@ -16,7 +16,7 @@ def load_dir(path):
     data = []
     for filename in os.listdir(path):
         name, ext = os.path.splitext(filename)
-        if ext != '.cnf':
+        if ext != '.wcnf':
             continue
         f = CNF.from_file(os.path.join(path, filename))
         if name.startswith('uu'):
