@@ -2,7 +2,7 @@ name: wcnf_demo
 seed: 1
 
 log_level: info
-report_interval: 10
+report_interval: 1
 eval_interval: 50
 save_interval: 50
 
@@ -16,7 +16,7 @@ train_sets:
 
 eval_set:
   name: eval
-  samples: 1000
+  samples: 10
   max_tries: 10
   max_flips: 500
 

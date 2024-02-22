@@ -89,7 +89,7 @@ def main(args):
         upwards = []
         sideways = []
         for i, sample in enumerate(eval_set):
-            if i % 10 == 0:
+            if i % 1 == 0:
                 logger.info(f'Sample: {i}')
             if i >= args.samples:
                 break
