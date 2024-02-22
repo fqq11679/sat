@@ -6,19 +6,19 @@ report_interval: 10
 eval_interval: 50
 save_interval: 50
 
-data_path: /pub/ssd/yef
+data_path: /home/wuhao/sat
 train_sets:
-  - name: train_sample
-    samples: 10
-    max_tries: 5
-    max_flips: 50
+  - name: train
+    samples: 1000
+    max_tries: 10
+    max_flips: 500
     iterations: 1000
 
 eval_set:
-  name: eval_sample
-  samples: 10
+  name: eval
+  samples: 1000
   max_tries: 10
-  max_flips: 200
+  max_flips: 500
 
 model_path: False
 
