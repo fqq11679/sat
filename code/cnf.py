@@ -12,14 +12,14 @@ class CNF:
 Clauses: {str(self.clauses)}
 Comments: {str(self.comments)}
 Weights: {str(self.weights)}
-Top: {str(top_val)}"""
+Top: {str(self.top_val)}"""
 
     def to_file(self, filename):
         with open(filename, 'w') as f:
             f.write(self.to_string())
 
     def to_string(self):
-        string = f'p wcnf {self.n_variables} {len(self.clauses)} {str(top_val)}\n'
+        string = f'p wcnf {self.n_variables} {len(self.clauses)} {str(self.top_val)}\n'
         #for clause in self.clauses:
         for i in range(len(self.clauses)):
             string += self.weights[i] + ' ' + ' '.join(str(literal) for literal in self.clauses[i]) + ' 0\n'
