@@ -12,7 +12,7 @@ train_sets:
     samples: 2000
     max_tries: 5
     max_flips: 50
-    iterations: 10000
+    iterations: 1000
 
 eval_set:
   name: 3-10-0.5

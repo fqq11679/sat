@@ -53,7 +53,7 @@ Top: {str(self.top_val)}"""
                 n_variables, n_remaining_clauses, top_val = int(tokens[2]), int(tokens[3]), int(tokens[4])
                 occur_list = [[] for _ in range(n_variables * 2 + 1)]
             elif n_remaining_clauses > 0:
-                weights.append(line.split()[0])
+                weights.append(int(line.split()[0]))
                 clause = []
                 clause_index = len(clauses)
                 for literal in line.split()[1:-1]:

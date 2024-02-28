@@ -160,7 +160,8 @@ def generate_episodes(ls, sample, max_tries, max_flips, config):
     for _ in range(max_tries):
         sat, flip, history = ls.generate_episode(sample, max_flips, config['walk_prob'])
         flip = flip[0]
-        if sat and flip > 0 and not all(map(lambda x: x is None, history[0])):
+        #if sat and flip > 0 and not all(map(lambda x: x is None, history[0])):
+        if flip > 0 and not all(map(lambda x: x is None, history[0])):
             losses.append(loss_fn(sat, history, config))
         flips.append(flip)
     return losses, flips

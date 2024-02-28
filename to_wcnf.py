@@ -4,7 +4,7 @@ import random
 
 current_dir = os.getcwd()
 
-cnf_files = glob.glob(os.path.join(current_dir,'eval', "*.cnf"))
+cnf_files = glob.glob(os.path.join(current_dir,'data/kcolor/5-20-0.5', "*.cnf"))
 
 #print(cnf_files)
 
