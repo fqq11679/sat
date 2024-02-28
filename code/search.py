@@ -122,7 +122,17 @@ class LocalSearch:
             flip += 1
             log_probs.append(log_prob)
         # print(backflipped)
-        return sat, (flip, backflipped, unsat_clauses), (log_probs,)
+        reward = 0
+
+        for k in range(len(f.clauses)):
+            if f.weights[k] < f.top_val and true_lit_count[k] > 0:
+                reward += f.weights[k]
+
+        for k in range(len(f.clauses)):
+            if f.weights[k] == f.top_val and true_lit_count[k] == 0:
+                reward = 0
+
+        return sat, (flip, backflipped, unsat_clauses), (log_probs,reward,)
 
     def _generate_episode_reinforce_multi(self, sample, max_flips, walk_prob):
         f = sample.formula

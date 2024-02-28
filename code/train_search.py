@@ -58,6 +58,8 @@ def reinforce(sat, history, config):
     log_probs_list = history[0]
     T = len(log_probs_list)
 
+    reward = history[1]
+
     log_probs_filtered = []
     mask = np.zeros(T, dtype=np.uint8)
     for i, x in enumerate(log_probs_list):
@@ -68,7 +70,7 @@ def reinforce(sat, history, config):
     log_probs = torch.stack(log_probs_filtered)
     partial_rewards = config['discount'] ** torch.arange(T - 1, -1, -1, dtype=torch.float32, device=log_probs.device)
 
-    return -torch.mean(partial_rewards[torch.from_numpy(mask).to(log_probs.device)] * log_probs)
+    return -torch.mean(partial_rewards[torch.from_numpy(mask).to(log_probs.device)] * log_probs)*reward
 
 
 def pg(sat, history, config):
