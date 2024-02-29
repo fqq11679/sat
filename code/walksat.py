@@ -121,7 +121,13 @@ def main(args):
         downwards = []
         upwards = []
         sideways = []
-        for i, filename in enumerate(os.listdir(args.dir_path)):
+
+        filenames = []
+        for filename in os.listdir(args.dir_path):
+            if '.wcnf' in filename:
+                filenames.append(filename)
+                
+        for i, filename in enumerate(filenames):
             if i >= args.samples:
                 break
             formula = CNF.from_file(os.path.join(args.dir_path, filename))
