@@ -53,12 +53,13 @@ def generate_episodes(ls, sample, max_tries, max_flips, walk_prob, no_multi):
         unsat_clauses = []
 
         for j in range(max_tries):
-            # logger.info(f'Try: {j}')
+            logger.info(f'Try: {j}')
             sat, stat, _ = ls.generate_episode(sample, max_flips, walk_prob)
             flip, backflip, unsat = stat
             flips.append(flip)
             backflips.append(backflip)
             unsat_clauses.append(unsat)
+            break#
         return flips, backflips, unsat_clauses
 
 

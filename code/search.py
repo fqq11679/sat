@@ -118,6 +118,11 @@ class LocalSearch:
                     flipped.add(v.item())
                 else:
                     backflipped += 1
+
+            print(data.sol) #
+            print('flip {}'.format(int(v)+1)) #
+
+
             flip_(data.x[0], data.sol, true_lit_count, v, f.occur_list)
             flip += 1
             log_probs.append(log_prob)
@@ -131,6 +136,8 @@ class LocalSearch:
         for k in range(len(f.clauses)):
             if f.weights[k] == f.top_val and true_lit_count[k] == 0:
                 reward = 0
+
+        print('reward {}'.format(reward))
 
         return sat, (flip, backflipped, unsat_clauses), (log_probs,reward,)
 
