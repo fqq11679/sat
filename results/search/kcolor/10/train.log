@@ -1,4 +1,4 @@
-07:02:38 INFO Configuration:
+18:50:47 INFO Configuration:
 name: search/kcolor/10
 seed: 1
 
@@ -36,173 +36,173 @@ method: reinforce
 discount: 0.25
 walk_prob: 0.5
 
-07:02:38 INFO Device: cpu
-07:02:38 INFO Loading model parameters from results/search/kcolor/5/model_last.pth
-07:02:42 INFO Loaded 2000 training problems from data/kcolor
-07:02:42 INFO Loaded 10 evaluation problems from data/kcolor
-07:02:42 INFO Cycle: 1
-07:02:42 INFO Train set: 3-10-0.5
-07:04:19 INFO (Eval)    Acc:     100.00,  Flips:     157.25 (med) /     189.54 (mean) /     399.70 (max)
-07:04:19 INFO Saving best model parameters
-07:04:42 INFO Iter:     10,  Acc:     100.00,  Flips:      28.00 (med) /      40.76 (mean) /      79.40 (max)
-07:04:59 INFO Iter:     20,  Acc:     100.00,  Flips:      18.00 (med) /      39.04 (mean) /      84.90 (max)
-07:05:14 INFO Iter:     30,  Acc:     100.00,  Flips:      27.00 (med) /      35.56 (mean) /      68.30 (max)
-07:05:28 INFO Iter:     40,  Acc:     100.00,  Flips:      25.50 (med) /      33.68 (mean) /      62.70 (max)
-07:05:45 INFO Iter:     50,  Acc:     100.00,  Flips:      28.50 (med) /      40.96 (mean) /      94.00 (max)
-07:05:45 INFO Saving last model parameters
-07:05:45 INFO Saving stats
-07:06:43 INFO (Eval)    Acc:     100.00,  Flips:     135.75 (med) /     163.01 (mean) /     336.20 (max)
-07:06:43 INFO Saving best model parameters
-07:07:10 INFO Iter:     60,  Acc:     100.00,  Flips:      31.50 (med) /      52.88 (mean) /     113.10 (max)
-07:07:36 INFO Iter:     70,  Acc:     100.00,  Flips:      32.00 (med) /      50.88 (mean) /     125.70 (max)
-07:07:59 INFO Iter:     80,  Acc:     100.00,  Flips:      26.50 (med) /      46.62 (mean) /      94.80 (max)
-07:08:23 INFO Iter:     90,  Acc:     100.00,  Flips:      26.50 (med) /      45.98 (mean) /      91.80 (max)
-07:08:38 INFO Iter:    100,  Acc:     100.00,  Flips:      20.50 (med) /      29.56 (mean) /      55.80 (max)
-07:08:38 INFO Saving last model parameters
-07:08:38 INFO Saving stats
-07:10:06 INFO (Eval)    Acc:      90.00,  Flips:     187.50 (med) /     276.08 (mean) /     495.50 (max)
-07:10:27 INFO Iter:    110,  Acc:     100.00,  Flips:      25.50 (med) /      41.90 (mean) /      84.20 (max)
-07:10:50 INFO Iter:    120,  Acc:     100.00,  Flips:      28.00 (med) /      46.80 (mean) /      87.70 (max)
-07:11:08 INFO Iter:    130,  Acc:     100.00,  Flips:      25.00 (med) /      34.28 (mean) /      66.50 (max)
-07:11:21 INFO Iter:    140,  Acc:     100.00,  Flips:      20.50 (med) /      28.60 (mean) /      50.40 (max)
-07:11:40 INFO Iter:    150,  Acc:     100.00,  Flips:      32.00 (med) /      34.24 (mean) /      66.00 (max)
-07:11:40 INFO Saving last model parameters
-07:11:40 INFO Saving stats
-07:13:01 INFO (Eval)    Acc:      90.00,  Flips:     201.00 (med) /     241.99 (mean) /     491.80 (max)
-07:13:19 INFO Iter:    160,  Acc:     100.00,  Flips:      27.50 (med) /      39.44 (mean) /      83.30 (max)
-07:13:37 INFO Iter:    170,  Acc:     100.00,  Flips:      30.50 (med) /      40.08 (mean) /      70.70 (max)
-07:14:01 INFO Iter:    180,  Acc:     100.00,  Flips:      40.50 (med) /      52.54 (mean) /     104.00 (max)
-07:14:20 INFO Iter:    190,  Acc:     100.00,  Flips:      34.00 (med) /      43.08 (mean) /      89.20 (max)
-07:14:40 INFO Iter:    200,  Acc:     100.00,  Flips:      24.50 (med) /      46.52 (mean) /      95.60 (max)
-07:14:40 INFO Saving last model parameters
-07:14:40 INFO Saving stats
-07:16:08 INFO (Eval)    Acc:     100.00,  Flips:     155.50 (med) /     227.60 (mean) /     453.00 (max)
-07:16:29 INFO Iter:    210,  Acc:     100.00,  Flips:      25.00 (med) /      46.56 (mean) /      96.20 (max)
-07:16:49 INFO Iter:    220,  Acc:     100.00,  Flips:      30.50 (med) /      46.86 (mean) /      99.80 (max)
-07:17:10 INFO Iter:    230,  Acc:     100.00,  Flips:      30.00 (med) /      47.58 (mean) /     109.80 (max)
-07:17:27 INFO Iter:    240,  Acc:     100.00,  Flips:      26.00 (med) /      34.96 (mean) /      69.60 (max)
-07:17:39 INFO Iter:    250,  Acc:     100.00,  Flips:      21.50 (med) /      25.42 (mean) /      49.50 (max)
-07:17:39 INFO Saving last model parameters
-07:17:39 INFO Saving stats
-07:18:55 INFO (Eval)    Acc:     100.00,  Flips:     182.50 (med) /     224.53 (mean) /     435.80 (max)
-07:19:09 INFO Iter:    260,  Acc:     100.00,  Flips:      22.00 (med) /      30.28 (mean) /      65.70 (max)
-07:19:23 INFO Iter:    270,  Acc:     100.00,  Flips:      25.00 (med) /      34.82 (mean) /      66.70 (max)
-07:19:38 INFO Iter:    280,  Acc:     100.00,  Flips:      19.50 (med) /      40.58 (mean) /      92.80 (max)
-07:19:49 INFO Iter:    290,  Acc:     100.00,  Flips:      21.00 (med) /      28.16 (mean) /      45.60 (max)
-07:20:04 INFO Iter:    300,  Acc:     100.00,  Flips:      24.50 (med) /      36.30 (mean) /      77.40 (max)
-07:20:04 INFO Saving last model parameters
-07:20:04 INFO Saving stats
-07:22:11 INFO (Eval)    Acc:      40.00,  Flips:     500.00 (med) /     347.92 (mean) /     483.20 (max)
-07:22:32 INFO Iter:    310,  Acc:     100.00,  Flips:      24.50 (med) /      45.08 (mean) /      89.00 (max)
-07:22:49 INFO Iter:    320,  Acc:     100.00,  Flips:      25.50 (med) /      38.14 (mean) /      84.40 (max)
-07:23:03 INFO Iter:    330,  Acc:     100.00,  Flips:      23.50 (med) /      27.24 (mean) /      43.30 (max)
-07:23:25 INFO Iter:    340,  Acc:     100.00,  Flips:      25.50 (med) /      44.12 (mean) /      89.10 (max)
-07:23:43 INFO Iter:    350,  Acc:     100.00,  Flips:      27.00 (med) /      38.92 (mean) /      81.20 (max)
-07:23:43 INFO Saving last model parameters
-07:23:43 INFO Saving stats
-07:25:32 INFO (Eval)    Acc:      50.00,  Flips:     457.50 (med) /     313.23 (mean) /     499.10 (max)
-07:25:46 INFO Iter:    360,  Acc:     100.00,  Flips:      19.00 (med) /      32.54 (mean) /      64.90 (max)
-07:26:04 INFO Iter:    370,  Acc:     100.00,  Flips:      25.50 (med) /      39.86 (mean) /      91.30 (max)
-07:26:17 INFO Iter:    380,  Acc:     100.00,  Flips:      22.50 (med) /      36.80 (mean) /      65.20 (max)
-07:26:36 INFO Iter:    390,  Acc:     100.00,  Flips:      25.00 (med) /      46.88 (mean) /      97.30 (max)
-07:26:52 INFO Iter:    400,  Acc:     100.00,  Flips:      23.00 (med) /      36.30 (mean) /      69.20 (max)
-07:26:52 INFO Saving last model parameters
-07:26:52 INFO Saving stats
-07:28:05 INFO (Eval)    Acc:     100.00,  Flips:     179.00 (med) /     213.73 (mean) /     448.30 (max)
-07:28:22 INFO Iter:    410,  Acc:     100.00,  Flips:      24.00 (med) /      37.70 (mean) /      83.90 (max)
-07:28:40 INFO Iter:    420,  Acc:     100.00,  Flips:      23.00 (med) /      46.80 (mean) /      88.10 (max)
-07:28:58 INFO Iter:    430,  Acc:     100.00,  Flips:      27.00 (med) /      48.42 (mean) /      96.60 (max)
-07:29:12 INFO Iter:    440,  Acc:     100.00,  Flips:      26.50 (med) /      35.02 (mean) /      66.30 (max)
-07:29:24 INFO Iter:    450,  Acc:     100.00,  Flips:      20.00 (med) /      28.96 (mean) /      57.20 (max)
-07:29:24 INFO Saving last model parameters
-07:29:24 INFO Saving stats
-07:30:31 INFO (Eval)    Acc:     100.00,  Flips:     139.25 (med) /     196.47 (mean) /     451.10 (max)
-07:30:48 INFO Iter:    460,  Acc:     100.00,  Flips:      21.50 (med) /      35.88 (mean) /      62.90 (max)
-07:31:09 INFO Iter:    470,  Acc:     100.00,  Flips:      28.50 (med) /      47.90 (mean) /      84.40 (max)
-07:31:29 INFO Iter:    480,  Acc:     100.00,  Flips:      29.00 (med) /      52.46 (mean) /     121.40 (max)
-07:31:42 INFO Iter:    490,  Acc:     100.00,  Flips:      21.00 (med) /      29.12 (mean) /      55.80 (max)
-07:31:58 INFO Iter:    500,  Acc:     100.00,  Flips:      25.00 (med) /      36.90 (mean) /      74.60 (max)
-07:31:58 INFO Saving last model parameters
-07:31:58 INFO Saving stats
-07:32:57 INFO (Eval)    Acc:     100.00,  Flips:     178.25 (med) /     192.91 (mean) /     432.30 (max)
-07:33:07 INFO Iter:    510,  Acc:     100.00,  Flips:      18.00 (med) /      24.72 (mean) /      48.50 (max)
-07:33:26 INFO Iter:    520,  Acc:     100.00,  Flips:      24.00 (med) /      40.10 (mean) /      83.00 (max)
-07:33:40 INFO Iter:    530,  Acc:     100.00,  Flips:      20.00 (med) /      25.96 (mean) /      48.80 (max)
-07:34:01 INFO Iter:    540,  Acc:     100.00,  Flips:      27.00 (med) /      51.58 (mean) /     107.90 (max)
-07:34:15 INFO Iter:    550,  Acc:     100.00,  Flips:      22.00 (med) /      35.92 (mean) /      80.30 (max)
-07:34:15 INFO Saving last model parameters
-07:34:15 INFO Saving stats
-07:35:09 INFO (Eval)    Acc:     100.00,  Flips:     130.50 (med) /     176.31 (mean) /     412.00 (max)
-07:35:20 INFO Iter:    560,  Acc:     100.00,  Flips:      18.50 (med) /      25.16 (mean) /      49.10 (max)
-07:35:35 INFO Iter:    570,  Acc:     100.00,  Flips:      24.50 (med) /      30.84 (mean) /      50.80 (max)
-07:35:48 INFO Iter:    580,  Acc:     100.00,  Flips:      18.00 (med) /      27.56 (mean) /      49.30 (max)
-07:36:05 INFO Iter:    590,  Acc:      90.00,  Flips:      23.00 (med) /      37.74 (mean) /      63.90 (max)
-07:36:27 INFO Iter:    600,  Acc:      90.00,  Flips:      37.50 (med) /      56.08 (mean) /     103.40 (max)
-07:36:27 INFO Saving last model parameters
-07:36:27 INFO Saving stats
-07:37:10 INFO (Eval)    Acc:     100.00,  Flips:     114.25 (med) /     141.84 (mean) /     339.10 (max)
-07:37:26 INFO Iter:    610,  Acc:     100.00,  Flips:      22.00 (med) /      35.66 (mean) /      68.10 (max)
-07:37:42 INFO Iter:    620,  Acc:     100.00,  Flips:      24.00 (med) /      38.02 (mean) /      82.70 (max)
-07:37:57 INFO Iter:    630,  Acc:     100.00,  Flips:      27.50 (med) /      37.86 (mean) /      61.10 (max)
-07:38:14 INFO Iter:    640,  Acc:     100.00,  Flips:      25.00 (med) /      37.50 (mean) /      66.30 (max)
-07:38:31 INFO Iter:    650,  Acc:     100.00,  Flips:      28.00 (med) /      33.84 (mean) /      64.20 (max)
-07:38:31 INFO Saving last model parameters
-07:38:31 INFO Saving stats
-07:39:27 INFO (Eval)    Acc:     100.00,  Flips:      90.50 (med) /     161.21 (mean) /     398.20 (max)
-07:39:43 INFO Iter:    660,  Acc:     100.00,  Flips:      22.50 (med) /      35.48 (mean) /      67.50 (max)
-07:40:03 INFO Iter:    670,  Acc:     100.00,  Flips:      30.50 (med) /      49.48 (mean) /     115.30 (max)
-07:40:19 INFO Iter:    680,  Acc:     100.00,  Flips:      20.50 (med) /      39.52 (mean) /      84.00 (max)
-07:40:35 INFO Iter:    690,  Acc:     100.00,  Flips:      25.50 (med) /      40.68 (mean) /      87.20 (max)
-07:40:50 INFO Iter:    700,  Acc:     100.00,  Flips:      24.50 (med) /      40.18 (mean) /      97.90 (max)
-07:40:50 INFO Saving last model parameters
-07:40:50 INFO Saving stats
-07:41:35 INFO (Eval)    Acc:     100.00,  Flips:      73.75 (med) /     147.11 (mean) /     344.40 (max)
-07:41:50 INFO Iter:    710,  Acc:     100.00,  Flips:      27.50 (med) /      38.58 (mean) /      81.60 (max)
-07:42:06 INFO Iter:    720,  Acc:     100.00,  Flips:      26.00 (med) /      41.94 (mean) /      85.70 (max)
-07:42:19 INFO Iter:    730,  Acc:     100.00,  Flips:      23.00 (med) /      32.76 (mean) /      65.10 (max)
-07:42:32 INFO Iter:    740,  Acc:     100.00,  Flips:      19.50 (med) /      34.78 (mean) /      84.50 (max)
-07:42:48 INFO Iter:    750,  Acc:     100.00,  Flips:      28.50 (med) /      39.72 (mean) /      85.60 (max)
-07:42:48 INFO Saving last model parameters
-07:42:48 INFO Saving stats
-07:43:38 INFO (Eval)    Acc:     100.00,  Flips:     102.25 (med) /     164.83 (mean) /     409.60 (max)
-07:44:03 INFO Iter:    760,  Acc:      90.00,  Flips:      25.00 (med) /      62.60 (mean) /     106.00 (max)
-07:44:20 INFO Iter:    770,  Acc:     100.00,  Flips:      26.50 (med) /      44.64 (mean) /      82.80 (max)
-07:44:39 INFO Iter:    780,  Acc:     100.00,  Flips:      21.00 (med) /      39.56 (mean) /      97.70 (max)
-07:44:55 INFO Iter:    790,  Acc:     100.00,  Flips:      21.00 (med) /      28.54 (mean) /      49.60 (max)
-07:45:09 INFO Iter:    800,  Acc:     100.00,  Flips:      25.00 (med) /      30.88 (mean) /      50.70 (max)
-07:45:09 INFO Saving last model parameters
-07:45:09 INFO Saving stats
-07:46:15 INFO (Eval)    Acc:     100.00,  Flips:     129.00 (med) /     176.33 (mean) /     404.60 (max)
-07:46:29 INFO Iter:    810,  Acc:     100.00,  Flips:      21.50 (med) /      29.98 (mean) /      62.20 (max)
-07:46:46 INFO Iter:    820,  Acc:     100.00,  Flips:      29.00 (med) /      38.26 (mean) /      60.80 (max)
-07:47:00 INFO Iter:    830,  Acc:     100.00,  Flips:      22.50 (med) /      31.42 (mean) /      56.60 (max)
-07:47:16 INFO Iter:    840,  Acc:     100.00,  Flips:      18.50 (med) /      31.52 (mean) /      68.50 (max)
-07:47:32 INFO Iter:    850,  Acc:     100.00,  Flips:      20.00 (med) /      33.24 (mean) /      59.90 (max)
-07:47:32 INFO Saving last model parameters
-07:47:32 INFO Saving stats
-07:48:34 INFO (Eval)    Acc:     100.00,  Flips:     124.00 (med) /     165.99 (mean) /     328.90 (max)
-07:48:50 INFO Iter:    860,  Acc:     100.00,  Flips:      27.50 (med) /      35.36 (mean) /      68.80 (max)
-07:49:03 INFO Iter:    870,  Acc:     100.00,  Flips:      21.00 (med) /      29.90 (mean) /      54.20 (max)
-07:49:15 INFO Iter:    880,  Acc:     100.00,  Flips:      20.50 (med) /      27.82 (mean) /      49.90 (max)
-07:49:29 INFO Iter:    890,  Acc:     100.00,  Flips:      26.50 (med) /      35.04 (mean) /      73.00 (max)
-07:49:44 INFO Iter:    900,  Acc:     100.00,  Flips:      23.50 (med) /      41.46 (mean) /      79.70 (max)
-07:49:44 INFO Saving last model parameters
-07:49:44 INFO Saving stats
-07:50:33 INFO (Eval)    Acc:     100.00,  Flips:     100.75 (med) /     157.06 (mean) /     328.30 (max)
-07:50:33 INFO Saving best model parameters
-07:50:49 INFO Iter:    910,  Acc:     100.00,  Flips:      24.50 (med) /      33.38 (mean) /      65.00 (max)
-07:51:03 INFO Iter:    920,  Acc:     100.00,  Flips:      23.00 (med) /      29.08 (mean) /      57.40 (max)
-07:51:20 INFO Iter:    930,  Acc:     100.00,  Flips:      25.00 (med) /      41.28 (mean) /      91.50 (max)
-07:51:37 INFO Iter:    940,  Acc:     100.00,  Flips:      23.00 (med) /      36.50 (mean) /      84.10 (max)
-07:51:52 INFO Iter:    950,  Acc:     100.00,  Flips:      23.50 (med) /      32.96 (mean) /      74.20 (max)
-07:51:52 INFO Saving last model parameters
-07:51:52 INFO Saving stats
-07:52:39 INFO (Eval)    Acc:     100.00,  Flips:      83.25 (med) /     142.70 (mean) /     362.90 (max)
-07:52:52 INFO Iter:    960,  Acc:     100.00,  Flips:      22.50 (med) /      26.64 (mean) /      47.70 (max)
-07:53:08 INFO Iter:    970,  Acc:     100.00,  Flips:      22.00 (med) /      36.70 (mean) /      64.90 (max)
-07:53:27 INFO Iter:    980,  Acc:     100.00,  Flips:      28.00 (med) /      41.94 (mean) /      91.60 (max)
-07:53:46 INFO Iter:    990,  Acc:     100.00,  Flips:      26.00 (med) /      47.00 (mean) /      83.40 (max)
-07:54:00 INFO Iter:   1000,  Acc:     100.00,  Flips:      22.00 (med) /      33.24 (mean) /      67.50 (max)
-07:54:00 INFO Saving last model parameters
-07:54:00 INFO Saving stats
-07:55:07 INFO (Eval)    Acc:     100.00,  Flips:     147.25 (med) /     214.39 (mean) /     477.20 (max)
+18:50:47 INFO Device: cpu
+18:50:47 INFO Loading model parameters from results/search/kcolor/5/model_last.pth
+18:50:51 INFO Loaded 2000 training problems from data/kcolor
+18:50:51 INFO Loaded 10 evaluation problems from data/kcolor
+18:50:51 INFO Cycle: 1
+18:50:51 INFO Train set: 3-10-0.5
+18:52:12 INFO (Eval)    Acc:     100.00,  Flips:     157.25 (med) /     189.54 (mean) /     399.70 (max)
+18:52:12 INFO Saving best model parameters
+18:52:40 INFO Iter:     10,  Acc:     100.00,  Flips:      28.00 (med) /      40.76 (mean) /      79.40 (max)
+18:52:59 INFO Iter:     20,  Acc:     100.00,  Flips:      18.00 (med) /      39.04 (mean) /      84.90 (max)
+18:53:15 INFO Iter:     30,  Acc:     100.00,  Flips:      27.00 (med) /      35.56 (mean) /      68.30 (max)
+18:53:30 INFO Iter:     40,  Acc:     100.00,  Flips:      25.50 (med) /      33.68 (mean) /      62.70 (max)
+18:53:49 INFO Iter:     50,  Acc:     100.00,  Flips:      28.50 (med) /      40.96 (mean) /      94.00 (max)
+18:53:49 INFO Saving last model parameters
+18:53:49 INFO Saving stats
+18:54:50 INFO (Eval)    Acc:     100.00,  Flips:     135.75 (med) /     163.01 (mean) /     336.20 (max)
+18:54:50 INFO Saving best model parameters
+18:55:15 INFO Iter:     60,  Acc:     100.00,  Flips:      31.50 (med) /      52.88 (mean) /     113.10 (max)
+18:55:40 INFO Iter:     70,  Acc:     100.00,  Flips:      32.00 (med) /      50.88 (mean) /     125.70 (max)
+18:56:05 INFO Iter:     80,  Acc:     100.00,  Flips:      26.50 (med) /      46.62 (mean) /      94.80 (max)
+18:56:26 INFO Iter:     90,  Acc:     100.00,  Flips:      26.50 (med) /      45.98 (mean) /      91.80 (max)
+18:56:39 INFO Iter:    100,  Acc:     100.00,  Flips:      20.50 (med) /      29.56 (mean) /      55.80 (max)
+18:56:39 INFO Saving last model parameters
+18:56:39 INFO Saving stats
+18:58:11 INFO (Eval)    Acc:      90.00,  Flips:     187.50 (med) /     276.08 (mean) /     495.50 (max)
+18:58:29 INFO Iter:    110,  Acc:     100.00,  Flips:      25.50 (med) /      41.90 (mean) /      84.20 (max)
+18:58:47 INFO Iter:    120,  Acc:     100.00,  Flips:      28.00 (med) /      46.80 (mean) /      87.70 (max)
+18:59:01 INFO Iter:    130,  Acc:     100.00,  Flips:      25.00 (med) /      34.28 (mean) /      66.50 (max)
+18:59:15 INFO Iter:    140,  Acc:     100.00,  Flips:      20.50 (med) /      28.60 (mean) /      50.40 (max)
+18:59:32 INFO Iter:    150,  Acc:     100.00,  Flips:      32.00 (med) /      34.24 (mean) /      66.00 (max)
+18:59:32 INFO Saving last model parameters
+18:59:32 INFO Saving stats
+19:00:58 INFO (Eval)    Acc:      90.00,  Flips:     201.00 (med) /     241.99 (mean) /     491.80 (max)
+19:01:18 INFO Iter:    160,  Acc:     100.00,  Flips:      27.50 (med) /      39.44 (mean) /      83.30 (max)
+19:01:37 INFO Iter:    170,  Acc:     100.00,  Flips:      30.50 (med) /      40.08 (mean) /      70.70 (max)
+19:02:00 INFO Iter:    180,  Acc:     100.00,  Flips:      40.50 (med) /      52.54 (mean) /     104.00 (max)
+19:02:19 INFO Iter:    190,  Acc:     100.00,  Flips:      34.00 (med) /      43.08 (mean) /      89.20 (max)
+19:02:36 INFO Iter:    200,  Acc:     100.00,  Flips:      24.50 (med) /      46.52 (mean) /      95.60 (max)
+19:02:36 INFO Saving last model parameters
+19:02:36 INFO Saving stats
+19:03:52 INFO (Eval)    Acc:     100.00,  Flips:     155.50 (med) /     227.60 (mean) /     453.00 (max)
+19:04:13 INFO Iter:    210,  Acc:     100.00,  Flips:      25.00 (med) /      46.56 (mean) /      96.20 (max)
+19:04:35 INFO Iter:    220,  Acc:     100.00,  Flips:      30.50 (med) /      46.86 (mean) /      99.80 (max)
+19:04:55 INFO Iter:    230,  Acc:     100.00,  Flips:      30.00 (med) /      47.58 (mean) /     109.80 (max)
+19:05:09 INFO Iter:    240,  Acc:     100.00,  Flips:      26.00 (med) /      34.96 (mean) /      69.60 (max)
+19:05:21 INFO Iter:    250,  Acc:     100.00,  Flips:      21.50 (med) /      25.42 (mean) /      49.50 (max)
+19:05:21 INFO Saving last model parameters
+19:05:21 INFO Saving stats
+19:06:29 INFO (Eval)    Acc:     100.00,  Flips:     182.50 (med) /     224.53 (mean) /     435.80 (max)
+19:06:46 INFO Iter:    260,  Acc:     100.00,  Flips:      22.00 (med) /      30.28 (mean) /      65.70 (max)
+19:07:02 INFO Iter:    270,  Acc:     100.00,  Flips:      25.00 (med) /      34.82 (mean) /      66.70 (max)
+19:07:20 INFO Iter:    280,  Acc:     100.00,  Flips:      19.50 (med) /      40.58 (mean) /      92.80 (max)
+19:07:34 INFO Iter:    290,  Acc:     100.00,  Flips:      21.00 (med) /      28.16 (mean) /      45.60 (max)
+19:07:51 INFO Iter:    300,  Acc:     100.00,  Flips:      24.50 (med) /      36.30 (mean) /      77.40 (max)
+19:07:51 INFO Saving last model parameters
+19:07:51 INFO Saving stats
+19:09:46 INFO (Eval)    Acc:      40.00,  Flips:     500.00 (med) /     347.92 (mean) /     483.20 (max)
+19:10:06 INFO Iter:    310,  Acc:     100.00,  Flips:      24.50 (med) /      45.08 (mean) /      89.00 (max)
+19:10:24 INFO Iter:    320,  Acc:     100.00,  Flips:      25.50 (med) /      38.14 (mean) /      84.40 (max)
+19:10:38 INFO Iter:    330,  Acc:     100.00,  Flips:      23.50 (med) /      27.24 (mean) /      43.30 (max)
+19:10:59 INFO Iter:    340,  Acc:     100.00,  Flips:      25.50 (med) /      44.12 (mean) /      89.10 (max)
+19:11:18 INFO Iter:    350,  Acc:     100.00,  Flips:      27.00 (med) /      38.92 (mean) /      81.20 (max)
+19:11:18 INFO Saving last model parameters
+19:11:19 INFO Saving stats
+19:13:24 INFO (Eval)    Acc:      50.00,  Flips:     457.50 (med) /     313.23 (mean) /     499.10 (max)
+19:13:41 INFO Iter:    360,  Acc:     100.00,  Flips:      19.00 (med) /      32.54 (mean) /      64.90 (max)
+19:14:00 INFO Iter:    370,  Acc:     100.00,  Flips:      25.50 (med) /      39.86 (mean) /      91.30 (max)
+19:14:17 INFO Iter:    380,  Acc:     100.00,  Flips:      22.50 (med) /      36.80 (mean) /      65.20 (max)
+19:14:38 INFO Iter:    390,  Acc:     100.00,  Flips:      25.00 (med) /      46.88 (mean) /      97.30 (max)
+19:14:54 INFO Iter:    400,  Acc:     100.00,  Flips:      23.00 (med) /      36.30 (mean) /      69.20 (max)
+19:14:54 INFO Saving last model parameters
+19:14:54 INFO Saving stats
+19:16:10 INFO (Eval)    Acc:     100.00,  Flips:     179.00 (med) /     213.73 (mean) /     448.30 (max)
+19:16:28 INFO Iter:    410,  Acc:     100.00,  Flips:      24.00 (med) /      37.70 (mean) /      83.90 (max)
+19:16:47 INFO Iter:    420,  Acc:     100.00,  Flips:      23.00 (med) /      46.80 (mean) /      88.10 (max)
+19:17:06 INFO Iter:    430,  Acc:     100.00,  Flips:      27.00 (med) /      48.42 (mean) /      96.60 (max)
+19:17:21 INFO Iter:    440,  Acc:     100.00,  Flips:      26.50 (med) /      35.02 (mean) /      66.30 (max)
+19:17:32 INFO Iter:    450,  Acc:     100.00,  Flips:      20.00 (med) /      28.96 (mean) /      57.20 (max)
+19:17:32 INFO Saving last model parameters
+19:17:32 INFO Saving stats
+19:18:32 INFO (Eval)    Acc:     100.00,  Flips:     139.25 (med) /     196.47 (mean) /     451.10 (max)
+19:18:51 INFO Iter:    460,  Acc:     100.00,  Flips:      21.50 (med) /      35.88 (mean) /      62.90 (max)
+19:19:12 INFO Iter:    470,  Acc:     100.00,  Flips:      28.50 (med) /      47.90 (mean) /      84.40 (max)
+19:19:35 INFO Iter:    480,  Acc:     100.00,  Flips:      29.00 (med) /      52.46 (mean) /     121.40 (max)
+19:19:51 INFO Iter:    490,  Acc:     100.00,  Flips:      21.00 (med) /      29.12 (mean) /      55.80 (max)
+19:20:08 INFO Iter:    500,  Acc:     100.00,  Flips:      25.00 (med) /      36.90 (mean) /      74.60 (max)
+19:20:08 INFO Saving last model parameters
+19:20:08 INFO Saving stats
+19:21:12 INFO (Eval)    Acc:     100.00,  Flips:     178.25 (med) /     192.91 (mean) /     432.30 (max)
+19:21:21 INFO Iter:    510,  Acc:     100.00,  Flips:      18.00 (med) /      24.72 (mean) /      48.50 (max)
+19:21:37 INFO Iter:    520,  Acc:     100.00,  Flips:      24.00 (med) /      40.10 (mean) /      83.00 (max)
+19:21:50 INFO Iter:    530,  Acc:     100.00,  Flips:      20.00 (med) /      25.96 (mean) /      48.80 (max)
+19:22:12 INFO Iter:    540,  Acc:     100.00,  Flips:      27.00 (med) /      51.58 (mean) /     107.90 (max)
+19:22:26 INFO Iter:    550,  Acc:     100.00,  Flips:      22.00 (med) /      35.92 (mean) /      80.30 (max)
+19:22:26 INFO Saving last model parameters
+19:22:26 INFO Saving stats
+19:23:17 INFO (Eval)    Acc:     100.00,  Flips:     130.50 (med) /     176.31 (mean) /     412.00 (max)
+19:23:32 INFO Iter:    560,  Acc:     100.00,  Flips:      18.50 (med) /      25.16 (mean) /      49.10 (max)
+19:23:46 INFO Iter:    570,  Acc:     100.00,  Flips:      24.50 (med) /      30.84 (mean) /      50.80 (max)
+19:23:59 INFO Iter:    580,  Acc:     100.00,  Flips:      18.00 (med) /      27.56 (mean) /      49.30 (max)
+19:24:12 INFO Iter:    590,  Acc:      90.00,  Flips:      23.00 (med) /      37.74 (mean) /      63.90 (max)
+19:24:32 INFO Iter:    600,  Acc:      90.00,  Flips:      37.50 (med) /      56.08 (mean) /     103.40 (max)
+19:24:32 INFO Saving last model parameters
+19:24:32 INFO Saving stats
+19:25:13 INFO (Eval)    Acc:     100.00,  Flips:     114.25 (med) /     141.84 (mean) /     339.10 (max)
+19:25:32 INFO Iter:    610,  Acc:     100.00,  Flips:      22.00 (med) /      35.66 (mean) /      68.10 (max)
+19:25:50 INFO Iter:    620,  Acc:     100.00,  Flips:      24.00 (med) /      38.02 (mean) /      82.70 (max)
+19:26:08 INFO Iter:    630,  Acc:     100.00,  Flips:      27.50 (med) /      37.86 (mean) /      61.10 (max)
+19:26:25 INFO Iter:    640,  Acc:     100.00,  Flips:      25.00 (med) /      37.50 (mean) /      66.30 (max)
+19:26:38 INFO Iter:    650,  Acc:     100.00,  Flips:      28.00 (med) /      33.84 (mean) /      64.20 (max)
+19:26:38 INFO Saving last model parameters
+19:26:38 INFO Saving stats
+19:27:36 INFO (Eval)    Acc:     100.00,  Flips:      90.50 (med) /     161.21 (mean) /     398.20 (max)
+19:27:51 INFO Iter:    660,  Acc:     100.00,  Flips:      22.50 (med) /      35.48 (mean) /      67.50 (max)
+19:28:12 INFO Iter:    670,  Acc:     100.00,  Flips:      30.50 (med) /      49.48 (mean) /     115.30 (max)
+19:28:29 INFO Iter:    680,  Acc:     100.00,  Flips:      20.50 (med) /      39.52 (mean) /      84.00 (max)
+19:28:46 INFO Iter:    690,  Acc:     100.00,  Flips:      25.50 (med) /      40.68 (mean) /      87.20 (max)
+19:29:01 INFO Iter:    700,  Acc:     100.00,  Flips:      24.50 (med) /      40.18 (mean) /      97.90 (max)
+19:29:01 INFO Saving last model parameters
+19:29:01 INFO Saving stats
+19:29:52 INFO (Eval)    Acc:     100.00,  Flips:      73.75 (med) /     147.11 (mean) /     344.40 (max)
+19:30:07 INFO Iter:    710,  Acc:     100.00,  Flips:      27.50 (med) /      38.58 (mean) /      81.60 (max)
+19:30:25 INFO Iter:    720,  Acc:     100.00,  Flips:      26.00 (med) /      41.94 (mean) /      85.70 (max)
+19:30:40 INFO Iter:    730,  Acc:     100.00,  Flips:      23.00 (med) /      32.76 (mean) /      65.10 (max)
+19:30:55 INFO Iter:    740,  Acc:     100.00,  Flips:      19.50 (med) /      34.78 (mean) /      84.50 (max)
+19:31:10 INFO Iter:    750,  Acc:     100.00,  Flips:      28.50 (med) /      39.72 (mean) /      85.60 (max)
+19:31:10 INFO Saving last model parameters
+19:31:10 INFO Saving stats
+19:32:03 INFO (Eval)    Acc:     100.00,  Flips:     102.25 (med) /     164.83 (mean) /     409.60 (max)
+19:32:31 INFO Iter:    760,  Acc:      90.00,  Flips:      25.00 (med) /      62.60 (mean) /     106.00 (max)
+19:32:49 INFO Iter:    770,  Acc:     100.00,  Flips:      26.50 (med) /      44.64 (mean) /      82.80 (max)
+19:33:04 INFO Iter:    780,  Acc:     100.00,  Flips:      21.00 (med) /      39.56 (mean) /      97.70 (max)
+19:33:17 INFO Iter:    790,  Acc:     100.00,  Flips:      21.00 (med) /      28.54 (mean) /      49.60 (max)
+19:33:31 INFO Iter:    800,  Acc:     100.00,  Flips:      25.00 (med) /      30.88 (mean) /      50.70 (max)
+19:33:31 INFO Saving last model parameters
+19:33:31 INFO Saving stats
+19:34:27 INFO (Eval)    Acc:     100.00,  Flips:     129.00 (med) /     176.33 (mean) /     404.60 (max)
+19:34:38 INFO Iter:    810,  Acc:     100.00,  Flips:      21.50 (med) /      29.98 (mean) /      62.20 (max)
+19:34:55 INFO Iter:    820,  Acc:     100.00,  Flips:      29.00 (med) /      38.26 (mean) /      60.80 (max)
+19:35:11 INFO Iter:    830,  Acc:     100.00,  Flips:      22.50 (med) /      31.42 (mean) /      56.60 (max)
+19:35:24 INFO Iter:    840,  Acc:     100.00,  Flips:      18.50 (med) /      31.52 (mean) /      68.50 (max)
+19:35:38 INFO Iter:    850,  Acc:     100.00,  Flips:      20.00 (med) /      33.24 (mean) /      59.90 (max)
+19:35:38 INFO Saving last model parameters
+19:35:38 INFO Saving stats
+19:36:33 INFO (Eval)    Acc:     100.00,  Flips:     124.00 (med) /     165.99 (mean) /     328.90 (max)
+19:36:50 INFO Iter:    860,  Acc:     100.00,  Flips:      27.50 (med) /      35.36 (mean) /      68.80 (max)
+19:37:04 INFO Iter:    870,  Acc:     100.00,  Flips:      21.00 (med) /      29.90 (mean) /      54.20 (max)
+19:37:16 INFO Iter:    880,  Acc:     100.00,  Flips:      20.50 (med) /      27.82 (mean) /      49.90 (max)
+19:37:30 INFO Iter:    890,  Acc:     100.00,  Flips:      26.50 (med) /      35.04 (mean) /      73.00 (max)
+19:37:48 INFO Iter:    900,  Acc:     100.00,  Flips:      23.50 (med) /      41.46 (mean) /      79.70 (max)
+19:37:48 INFO Saving last model parameters
+19:37:48 INFO Saving stats
+19:38:52 INFO (Eval)    Acc:     100.00,  Flips:     100.75 (med) /     157.06 (mean) /     328.30 (max)
+19:38:52 INFO Saving best model parameters
+19:39:09 INFO Iter:    910,  Acc:     100.00,  Flips:      24.50 (med) /      33.38 (mean) /      65.00 (max)
+19:39:22 INFO Iter:    920,  Acc:     100.00,  Flips:      23.00 (med) /      29.08 (mean) /      57.40 (max)
+19:39:40 INFO Iter:    930,  Acc:     100.00,  Flips:      25.00 (med) /      41.28 (mean) /      91.50 (max)
+19:39:58 INFO Iter:    940,  Acc:     100.00,  Flips:      23.00 (med) /      36.50 (mean) /      84.10 (max)
+19:40:14 INFO Iter:    950,  Acc:     100.00,  Flips:      23.50 (med) /      32.96 (mean) /      74.20 (max)
+19:40:14 INFO Saving last model parameters
+19:40:14 INFO Saving stats
+19:40:57 INFO (Eval)    Acc:     100.00,  Flips:      83.25 (med) /     142.70 (mean) /     362.90 (max)
+19:41:10 INFO Iter:    960,  Acc:     100.00,  Flips:      22.50 (med) /      26.64 (mean) /      47.70 (max)
+19:41:25 INFO Iter:    970,  Acc:     100.00,  Flips:      22.00 (med) /      36.70 (mean) /      64.90 (max)
+19:41:42 INFO Iter:    980,  Acc:     100.00,  Flips:      28.00 (med) /      41.94 (mean) /      91.60 (max)
+19:42:02 INFO Iter:    990,  Acc:     100.00,  Flips:      26.00 (med) /      47.00 (mean) /      83.40 (max)
+19:42:15 INFO Iter:   1000,  Acc:     100.00,  Flips:      22.00 (med) /      33.24 (mean) /      67.50 (max)
+19:42:15 INFO Saving last model parameters
+19:42:15 INFO Saving stats
+19:43:23 INFO (Eval)    Acc:     100.00,  Flips:     147.25 (med) /     214.39 (mean) /     477.20 (max)
